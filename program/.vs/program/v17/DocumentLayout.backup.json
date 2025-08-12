@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\program\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{170CC7A4-9F4B-4C3A-BABF-4F3CF0B11DC3}|program\\program.vcxproj|C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\program\\program\\progrma.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{170CC7A4-9F4B-4C3A-BABF-4F3CF0B11DC3}|program\\program.vcxproj|solutionrelative:program\\progrma.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 147,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "progrma.c",
+              "DocumentMoniker": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\program\\program\\progrma.c",
+              "RelativeDocumentMoniker": "program\\progrma.c",
+              "ToolTip": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\program\\program\\progrma.c",
+              "RelativeToolTip": "program\\progrma.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-12T09:17:26.619Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
