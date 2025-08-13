@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\program\\",
+  "WorkspaceRootPath": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{170CC7A4-9F4B-4C3A-BABF-4F3CF0B11DC3}|program\\program.vcxproj|C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\program\\program\\progrma.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{170CC7A4-9F4B-4C3A-BABF-4F3CF0B11DC3}|program\\program.vcxproj|C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\program\\progrma.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{170CC7A4-9F4B-4C3A-BABF-4F3CF0B11DC3}|program\\program.vcxproj|solutionrelative:program\\progrma.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780A5D6A-A046-4CB8-A37D-E7D960B10DFC}|class 1th (Time)\\class 1th (Time).vcxproj|C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\class 1th (Time)\\class 1th (Time).c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{780A5D6A-A046-4CB8-A37D-E7D960B10DFC}|class 1th (Time)\\class 1th (Time).vcxproj|solutionrelative:class 1th (Time)\\class 1th (Time).c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedHeight": 147,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "class 1th (Time).c",
+              "DocumentMoniker": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\class 1th (Time)\\class 1th (Time).c",
+              "RelativeDocumentMoniker": "class 1th (Time)\\class 1th (Time).c",
+              "ToolTip": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\class 1th (Time)\\class 1th (Time).c",
+              "RelativeToolTip": "class 1th (Time)\\class 1th (Time).c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-13T10:19:55.934Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "progrma.c",
-              "DocumentMoniker": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\program\\program\\progrma.c",
+              "DocumentMoniker": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\program\\progrma.c",
               "RelativeDocumentMoniker": "program\\progrma.c",
-              "ToolTip": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\program\\program\\progrma.c",
+              "ToolTip": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\program\\progrma.c",
               "RelativeToolTip": "program\\progrma.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-12T09:17:26.619Z",
               "EditorCaption": ""
