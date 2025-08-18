@@ -1,44 +1,39 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<time.h>
-#define SIZE 1000
+#define SIZE 10
+
 
 int main()
 {
-#pragma region 파일 입출력
-#pragma region file write
-	//fopne (첫 번째 매개 변수) : 파일의 이름
-	// fopen(두 번째 매개 변수) : 입력&출력 모드
+#pragma region getasynckeystate
+	//windows API에서 제공하는 입력 처리 함수로, 지정된 키의 상태를
+	//비동적으로 확인할 때 사용되는 함수입니다.
 
-	// "r" : 읽기 전용 (파일이 없을 때 : NULL)
-	// "w" : 쓰기 전용(새로 파일을 생성) 기존데이터를 덮어씌움
-	// "a" : 추가 모드(새로 파일을 생성) 기존에 있는 파일에 내용을 추가
+	// Key Syaye
+	// 0x0000 : 이전에 누른 적이 없고, 호출 시점에도 눌려있지 않은 상태
+	// 0x0001 : 이전에 누른 적이 있고, 호출 시점에는 눌려있지 않은 상태
+	// 0x8000 : 이전에 누른 적이 없고, 호출 시점에는 눌려있는 상태
+	// 0x8001 : 이전에 누른 적이 있고, 호출 시점에는 눌려있는 상태
 
-	/*FILE *file = fopen("data.twt", "w");
-	fputs("strength : \n", file);
-	fputs("dexterity : \n", file);
-	fputs("wisdom : \n", file);
-	fputs("intelligence : \n", file);
-	fputs("constitution : \n", file);
+	//SHORT GetasyncKeystate(int key)
+	//VK_RETURN, VK_LEFT
 
-	fclose(file);*/
-#pragma endregion
-
-#pragma region file Read
-	FILE *file = fopen("data.twt", "r");
-	
-	char buffer[SIZE] = { 0, };
-	
-	// 1.buffer : 읽은 데이터를 저장할 메모리
-	// 2. element size : 각 데이터 항목의 크기
-	// 3. element count : 데이터를 읽어올 데이터 항목의 수
-	// 4. stream : 데이터를 읽어올 파일 포인터
-	
-	fread(buffer, 1, SIZE, file);
-	printf("%s", buffer);
-	fclose(file);
-#pragma endregion
-
+	const char* conan[SIZE];
+	conan[0] = "안녕하세요 탐정님";
+	conan[1] = "안녕하세요 제 이름은 코난 탐정이죠";
+	conan[2] = "근데 이렇게 쓰는거 맞나요?";
+	conan[3] = "코드가 구구절절 길어 지는데";
+	conan[4] = "어쨋든 이번 의뢰는 가면산장 살인사건 입니다.";
+	conan[5] = "네 알고있었어요";
+	conan[6] = "?";
+	conan[7] = "아몬드 냄새가 났거든요";
+	conan[8] = "아이디어 고갈났습니다.";
+	conan[9] = "고생하셨습니다.";
+	for (int i = 0; i < SIZE; i++)
+	{
+		printf("%s\n", conan[i]);
+	}
 #pragma endregion
 
 
