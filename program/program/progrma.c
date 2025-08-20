@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include<time.h>
 #include<windows.h>
+
 #define SIZE 10
 #define UP 72
 #define LEFT 75
@@ -17,34 +18,39 @@ void mave(int x, int y)
 }
 
 int main()
-{
-	char x = 0;
-	while (1)
-	{
-		x = _getch();
+{	
 
-		switch (x)
+	char z = 0;
+	int x = 0;
+	int y = 0;
+	while (1)
+	{	
+		system("cls");
+		mave(x, y);
+		printf("¡Ú");
+		z = _getch();
+		if (z == -32)
 		{
-		case LEFT:printf("LEFT\n");
+			z = _getch();
 		}
-		switch (x)
+		switch (z)
 		{
-		case RIGHT : printf("RIGHT\n");
+		case LEFT: if(x > 0) --x, --x;
+			break;
+		case RIGHT: ++x, ++x;
+			break;
+		case UP: if(y > 0)--y;
+			break;
+		case  DOWN: ++y;
+			break;
+		default: printf("exception");
+			break;
 		}
-		switch (x)
-		{
-		case UP : printf("UP\n");
-		}
-		switch (x)
-		{
-		case  DOWN : printf("DOWN\n");
-		}
+		printf("\n");
 	}
 	
-#pragma region ¿¬½À
 
 
-#pragma endregion
 
 	return 0;
 }
