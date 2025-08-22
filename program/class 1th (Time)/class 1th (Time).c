@@ -56,14 +56,14 @@ int main()
 #pragma endregion
 
 #pragma region Sguffle Function
-	//srand(time(NULL));
-	//int list[] = {1,2,3,4,5,6,7,8,9,10};
-	//int size = sizeof(list)/sizeof(list[0]);
-	//shuffle(list, size);
-	//for (int i = 0; i < size; i++)
-	//{
-	//	printf("list[%d] = %d\n ", i, list[i]);
-	//}
+	srand(time(NULL));
+	int list[] = {1,2,3,4,5,6,7,8,9,10};
+	int size = sizeof(list)/sizeof(list[0]);
+	shuffle(list, size);
+	for (int i = 0; i < size; i++)
+	{
+		printf("list[%d] = %d\n ", i, list[i]);
+	}
 #pragma endregion
 
 #pragma region Game
@@ -97,40 +97,40 @@ int main()
 #pragma endregion
 
 #pragma region 풀이
-	//srand(time(NULL));
-	//int computer = rand() % 50 + 1;
-	//int answer = 0;
-	//int life = 5;
-	//while (life > 0)
-	//{	
-	//	update_health(life);
-	//	printf("COMPUTER : \n");
-	//	scanf_s("%d", &answer);
+	srand(time(NULL));
+	int computer = rand() % 50 + 1;
+	int answer = 0;
+	int life = 5;
+	while (life > 0)
+	{	
+		update_health(life);
+		printf("COMPUTER : \n");
+		scanf_s("%d", &answer);
 
-	//	if (answer == computer)
-	//	{
-	//		break;
-	//	}
-	//	else if (answer > computer)
-	//	{
-	//		life--;
-	//		printf("answer > computer\n");
-	//	}
-	//	else if (answer < computer)
-	//	{
-	//	life--;
-	//	printf("answer < computer\n");
-	//	}
+		if (answer == computer)
+		{
+			break;
+		}
+		else if (answer > computer)
+		{
+			life--;
+			printf("answer > computer\n");
+		}
+		else if (answer < computer)
+		{
+		life--;
+		printf("answer < computer\n");
+		}
 
-	//}
-	//if (life <= 0)
-	//{
-	//	printf("D E F E A T\n");
-	//}
-	//else
-	//{
-	//	printf("V I C T O R Y\n");
-	//}
+	}
+	if (life <= 0)
+	{
+		printf("D E F E A T\n");
+	}
+	else
+	{
+		printf("V I C T O R Y\n");
+	}
 #pragma endregion
 
 
