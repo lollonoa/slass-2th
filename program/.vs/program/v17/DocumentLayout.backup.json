@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{170CC7A4-9F4B-4C3A-BABF-4F3CF0B11DC3}|program\\program.vcxproj|C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\program\\progrma.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{170CC7A4-9F4B-4C3A-BABF-4F3CF0B11DC3}|program\\program.vcxproj|solutionrelative:program\\progrma.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{165FADFF-D537-4E1B-B8F7-86B0E8EEB58E}|Class6th (Enumeration)\\Class6th (Enumeration).vcxproj|C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\Class6th (Enumeration)\\Class6th (Enumeration).c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{165FADFF-D537-4E1B-B8F7-86B0E8EEB58E}|Class6th (Enumeration)\\Class6th (Enumeration).vcxproj|solutionrelative:Class6th (Enumeration)\\Class6th (Enumeration).c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{170CC7A4-9F4B-4C3A-BABF-4F3CF0B11DC3}|program\\program.vcxproj|C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\program\\progrma.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{170CC7A4-9F4B-4C3A-BABF-4F3CF0B11DC3}|program\\program.vcxproj|solutionrelative:program\\progrma.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EE927B2-0CC9-4FBF-B9D1-78781EEB7988}|class 3th (intput System)\\class 3th (intput System).vcxproj|C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\class 3th (intput System)\\class 3th (intput System).c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -41,21 +41,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 147,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class6th (Enumeration).c",
-              "DocumentMoniker": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\Class6th (Enumeration)\\Class6th (Enumeration).c",
-              "RelativeDocumentMoniker": "Class6th (Enumeration)\\Class6th (Enumeration).c",
-              "ToolTip": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\Class6th (Enumeration)\\Class6th (Enumeration).c",
-              "RelativeToolTip": "Class6th (Enumeration)\\Class6th (Enumeration).c",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAUwGgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-22T10:38:20.202Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -66,7 +53,32 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
               "ViewState": "AgIAAIACAAAAAAAAAAD4v4wCAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-22T10:21:31.496Z",
+              "WhenOpened": "2025-08-22T10:21:31.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "progrma.c",
+              "DocumentMoniker": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\program\\progrma.c",
+              "RelativeDocumentMoniker": "program\\progrma.c",
+              "ToolTip": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\program\\progrma.c",
+              "RelativeToolTip": "program\\progrma.c",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-12T09:17:26.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class6th (Enumeration).c",
+              "DocumentMoniker": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\Class6th (Enumeration)\\Class6th (Enumeration).c",
+              "RelativeDocumentMoniker": "Class6th (Enumeration)\\Class6th (Enumeration).c",
+              "ToolTip": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\Class6th (Enumeration)\\Class6th (Enumeration).c",
+              "RelativeToolTip": "Class6th (Enumeration)\\Class6th (Enumeration).c",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-22T10:38:20.202Z",
               "EditorCaption": ""
             },
             {
@@ -79,21 +91,7 @@
               "RelativeToolTip": "class 3th (intput System)\\class 3th (intput System).c",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-19T09:43:49.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "progrma.c",
-              "DocumentMoniker": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\program\\progrma.c",
-              "RelativeDocumentMoniker": "program\\progrma.c",
-              "ToolTip": "C:\\Users\\\uC11C\uB3D9\uAC74\\Desktop\\slass-2th\\program\\program\\progrma.c",
-              "RelativeToolTip": "program\\progrma.c",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-12T09:17:26.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T09:43:49.708Z"
             },
             {
               "$type": "Document",
@@ -117,8 +115,7 @@
               "RelativeToolTip": "class 1th (Time)\\class 1th (Time).c",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-13T10:19:55.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T10:19:55.934Z"
             },
             {
               "$type": "Document",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "class 4th (PS)\\class 4th (PS).c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-21T09:07:19.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T09:07:19.673Z"
             },
             {
               "$type": "Document",
@@ -143,8 +139,7 @@
               "RelativeToolTip": "class 5th (double Buffer)\\class 5th (double Buffer).c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-21T10:38:48.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T10:38:48.707Z"
             }
           ]
         }

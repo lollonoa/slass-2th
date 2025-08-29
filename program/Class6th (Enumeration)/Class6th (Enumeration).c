@@ -63,7 +63,7 @@ enum COLOR
 
 int main()
 {
-    // render();
+   render();
 
 #pragma region 열거형
     //서로 관련있는 상수들을 하나의 집합으로 정의하여 이름으로 
